@@ -230,4 +230,3 @@ sudo -u apache php bin/console db:install -u glpi -d glpi -p 123456 -L pt_BR -vv
 - Usuário: glpi  
     
 - Senha: glpi
-    
