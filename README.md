@@ -96,7 +96,7 @@ mysql -u root
 **7. Conceder privilégios ao usuário do GLPI na tabela de time zone:** 
 
 ```
-`GRANT SELECT ON `mysql`.`time_zone_name` TO 'glpi'@'localhost';`
+GRANT SELECT ON `mysql`.`time_zone_name` TO 'glpi'@'localhost';
 ```
 
 **8. Atualizar privilégios:** 
